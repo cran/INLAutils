@@ -22,6 +22,7 @@
 #' }
 #'
 #'@examples
+#' \dontrun{
 #'  library(INLA)
 #'  data(Epil)
 #'  ##Define the model
@@ -44,7 +45,7 @@
 #'
 #' # Change colours etc.
 #' p[[1]]$layers[[1]] <- geom_line(colour = 'red', linetype = 2)
-#' 
+#' }
 
 
 
@@ -142,13 +143,14 @@ autoplot.inla <- function(object, which = c(1:3, 5), priors = FALSE, CI = FALSE,
 #'
 #'
 #'@examples
+#'\dontrun{
 #'  library(INLA)
 #'  data(Epil)
 #'  ##Define the model
 #'  formula = y ~ Trt + Age + V4 +
 #'           f(Ind, model="iid") + f(rand,model="iid")
 #'  result = inla(formula, family="poisson", data = Epil, control.predictor = list(compute = TRUE))
-#'\dontrun{
+#'
 #'  plot_random_effects(result)
 #'  plot_random_effects(result, type = 'boxplot')
 #'  plot_fixed_marginals(result)
