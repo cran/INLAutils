@@ -1,4 +1,4 @@
-90d8b614fc7ba65defbd475c96d09d6a *DESCRIPTION
+7a69bf23a415aebe2248b4e0b2f6541e *DESCRIPTION
 dcfde057d37749672578da93a4b43c40 *LICENSE
 b3b3649265115310eaae7d250c48eb44 *NAMESPACE
 fd76f21b84ebe9b94ef7f154a8b7feba *R/INLAsdm.R
@@ -11,7 +11,7 @@ c4a118a96f0adc1d0bb2724f7eb5e884 *R/ggplot_projection_shapefile.R
 76e1df2ca78131d36912fa2d85d24353 *R/plot_inla_residuals.R
 dddc97f4a0c28e92c953160ee026f5b7 *R/plotmethods.R
 8591c7985d8ed9635742e03a1e963ce2 *R/printmethods.R
-0fd080a5ee155fbe39e2f1655deec1f1 *inst/CITATION
+bf808116f200be9c503f1f921bec1ed4 *inst/CITATION
 2af131677b817e0665b1657c54cedd6e *man/INLAstep.Rd
 75aa21c7e9c43caea4b4276d192035aa *man/INLAutils.Rd
 f06a59871db9e53b3c5d72f9da029f0b *man/autoplot.inla.Rd
